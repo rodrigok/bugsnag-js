@@ -349,6 +349,7 @@
       userId: getSetting("userId"),
       metaData: mergedMetaData,
       releaseStage: releaseStage,
+      groupingHash: mergedMetaData.groupingHash,
       appVersion: getSetting("appVersion"),
 
       url: window.location.href,
